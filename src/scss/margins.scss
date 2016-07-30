@@ -1,6 +1,6 @@
 $i: $margin-generator-start-size;
 
-#while($margin-generator-start-size <= $i) {
+@while($margin-generator-end-size >= $i) {
     
     .ml#{$i},
     .ml-xs-#{$i}
@@ -8,7 +8,7 @@ $i: $margin-generator-start-size;
         margin-left: #{$i}px;
     }
     
-    .mt#{$i}
+    .mt#{$i},
     .mt-xs-#{$i}
     {
         margin-top: #{$i}px;
@@ -190,6 +190,6 @@ $i: $margin-generator-start-size;
         }
     }
         
-    $i: $i - $margin-generator-step;
+    $i: $i + $margin-generator-step;
     
 }
