@@ -1,0 +1,45 @@
+{
+    "name": "runopencode.fed-boilerplate",
+    "description": "Boilerplate code for front end development that is commonly used by RunOpenCode guys.",
+    "keywords": [
+        "css",
+        "js",
+        "less",
+        "scss",
+        "responsive",
+        "front-end",
+        "web"
+    ],
+    "homepage": "https://github.com/RunOpenCode/fed-boilerplate",
+    "author": {
+        "name" : "Nikola Svitlica a.k.a TheCelavi",
+        "email" : "thecelavi@gmail.com"
+    },
+    "contributors": [
+        {
+            "name" : "Stojan Trajković",
+            "email" : "stole54@gmail.com"
+        },
+        {
+            "name" : "Davor Topalić",
+            "email" : "davor.topalic@gmail.com"
+        }
+    ],
+    "style": "dist/css/fed-boilerplate.css",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/RunOpenCode/fed-boilerplate"
+    },
+    "bugs": {
+        "url": "https://github.com/RunOpenCode/fed-boilerplate/issues"
+    },
+    "license": "MIT",
+    "devDependencies": {
+        "gulp": "^3.9.1",
+        "bower": "^1.7.9",
+        "gulp-concat": "^2.6.0",
+        "gulp-sass": "^2.3.2",
+        "gulp-minify-css": "^0.3.13",
+        "gulp-rename": "^1.2.2"
+    }
+}
