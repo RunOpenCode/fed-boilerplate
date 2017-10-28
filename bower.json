@@ -1,5 +1,5 @@
 {
-    "name": "runopencode.fed-boilerplate",
+    "name": "@runopencode/fed-boilerplate",
     "description": "Boilerplate code for front end development that is commonly used by RunOpenCode guys.",
     "version": "1.0.0",
     "keywords": [
