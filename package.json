@@ -1,5 +1,5 @@
 {
-    "name": "runopencode.fed-boilerplate",
+    "name": "@runopencode/fed-boilerplate",
     "description": "Boilerplate code for front end development that is commonly used by RunOpenCode guys.",
     "version": "1.0.0",
     "keywords": [
@@ -13,17 +13,17 @@
     ],
     "homepage": "https://github.com/RunOpenCode/fed-boilerplate",
     "author": {
-        "name" : "Nikola Svitlica a.k.a TheCelavi",
-        "email" : "thecelavi@gmail.com"
+        "name": "Nikola Svitlica a.k.a TheCelavi",
+        "email": "thecelavi@gmail.com"
     },
     "contributors": [
         {
-            "name" : "Stojan Trajković",
-            "email" : "stole54@gmail.com"
+            "name": "Stojan Trajković",
+            "email": "stole54@gmail.com"
         },
         {
-            "name" : "Davor Topalić",
-            "email" : "davor.topalic@gmail.com"
+            "name": "Davor Topalić",
+            "email": "davor.topalic@gmail.com"
         }
     ],
     "style": "dist/css/fed-boilerplate.css",

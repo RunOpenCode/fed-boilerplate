@@ -1,0 +1,58 @@
+//mixin (same as bootstrap 3)
+@mixin clearfix() {
+  &:before,
+  &:after {
+    content: " "; // 1
+    display: table; // 2
+  }
+  &:after {
+    clear: both;
+  }
+}
+
+.clearfix,
+.clearfix-xs {
+  @include clearfix;
+}
+
+@media (max-width: $screen-xs-max) {
+  .clearfix-xs-only {
+    @include clearfix;
+  }
+}
+
+@media (min-width: $screen-sm-min) {
+  .clearfix-sm {
+    @include clearfix;
+  }
+}
+
+@media (min-width: $screen-sm-min) and (max-width: $screen-sm-max) {
+  .clearfix-sm-only {
+    @include clearfix;
+  }
+}
+
+@media (min-width: $screen-md-min) {
+  .clearfix-md {
+    @include clearfix;
+  }
+}
+
+@media (min-width: $screen-md-min) and (max-width: $screen-md-max) {
+  .clearfix-md-only {
+    @include clearfix;
+  }
+}
+
+@media (min-width: $screen-lg-min) {
+  .clearfix-lg {
+    @include clearfix;
+  }
+}
+
+@media (min-width: $screen-md-min) and (max-width: $screen-md-max) {
+  .clearfix-sm-only {
+    @include clearfix;
+  }
+}
