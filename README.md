@@ -4,7 +4,25 @@ FED Boilerplate
 This is collection of commonly used CSS/JS snippets in RunOpenCode projects
 that are missing in widely used libraries (e.g. Bootstrap).
 
-## CSS
+## Quick start
+
+- Install with [npm](https://www.npmjs.com/): `npm install @runopencode/fed-boilerplate`
+
+## What's included
+
+Within the download you'll find the following directories and files, compiled and minified variations. You'll see something like this:
+
+```
+fed-boilerplate/
+└── dist/
+    └── css/
+        ├── fed-boilerplate.css
+        └── fed-boilerplate.min.css
+```
+
+## Documentation
+
+### CSS
 
 All css classes using same naming as Bootstrap 3 classes
 
@@ -20,7 +38,7 @@ there are also classes with _'only'_ suffix - currently can be applied only to c
 * **-md-only** only for medium devices (from 992px up to 1200px)
 * **-lg-only** only for large devices (1200px and up)
 
-### Display
+#### Display
 
 ``` .display-block ``` 
 
@@ -28,7 +46,7 @@ there are also classes with _'only'_ suffix - currently can be applied only to c
 
 ``` .display-inline ```   
 
-### Floating
+#### Floating
 
 ``` .pull-left ``` 
 
@@ -36,9 +54,9 @@ there are also classes with _'only'_ suffix - currently can be applied only to c
 
 ``` .pull-none ```
 
-### Margins and padding
+#### Margins and padding
 
-##### Margins
+###### Margins
 
 Margins can be set to positive and negative values, default classes for margins and padding 
 are from 0 to 20px 
@@ -55,7 +73,7 @@ eg. ```.ml-xs-10``` is ```margin-left: 10;``` and ```.ml-xs--10``` is ```margin-
 
 ``` .mb ```
 
-##### Padding
+###### Padding
 
 Default classes for padding are from 0 to 20px
 
@@ -69,7 +87,7 @@ Default classes for padding are from 0 to 20px
 
 ``` .pb ```
 
-### Text
+#### Text
 
 ``` .text-center ```
 
@@ -79,6 +97,6 @@ Default classes for padding are from 0 to 20px
 
 ``` .text-justify ```
 
-### Clearfix
+#### Clearfix
 
 ``` .clearfix ```
